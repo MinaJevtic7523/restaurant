@@ -1,155 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-       <meta name="description" content="Aurora Haven is an elegant restaurant renowned for its
-        exceptional cuisine, where every meal transforms into a unique experience for all the senses.">
-    <meta name="keywords" content="restaurant,menu,gallery,about,contact">
-    <meta name="author" content="Mina,Jevtić,mina,jevtic,aurora,haven">
-
-    <title>Restaurant</title>
-    <link rel="icon" href="../images/fav.png" type="image/x-icon"/>
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery | Aurora Haven</title>
+  <meta name="description" content="Photos of the food, the kitchen and the atmosphere at Aurora Haven.">
+  <meta name="author" content="Mina Jevtić">
+  <meta property="og:title" content="Gallery | Aurora Haven">
+  <meta property="og:description" content="Photos of the food, the kitchen and the atmosphere at Aurora Haven.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://minajevtic7523.github.io/restaurant/images/restaurant12.webp">
+  <link rel="icon" href="../images/fav.png" type="image/png">
+  <link rel="alternate" type="application/rss+xml" title="Aurora Haven" href="../xml.rss">
+  <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <header>
-        <div class="navbar">
-          <nav>
-            <ul>
-              <li><a href="../index.html">Home</a></li>
-              <li><a id="fix" href="../html/gallery.html">Gallery</a></li>
-              <li><a href="../html/menu.html">Menu</a></li>
-              <li><a href="../html/contact.html">Contact</a></li>
-              <li><a href="../html/about.html">About Us</a></li>
-            </ul>
-          </nav>
-        </div>
-    </header>
-    <h1 id="galleryH1">Gallery</h1>
-    <div class="gallery">
-        <div class="gallery-item">
-          <img src="../images/chef.jpg" alt="Image 1">
-          <div class="overlay">
-            <div class="caption">Our chef</div>
-          </div>
-        </div>
-        <div class="gallery-item">
-          <img src="../images/bar.jpeg" alt="Image 2">
-          <div class="overlay">
-            <div class="caption">Our bar</div>
-          </div>
-        </div>
-        <div class="gallery-item">
-          <img src="../images/caf.JPG" alt="Image 3">
-          <div class="overlay">
-            <div class="caption">Our Caffe</div>
-          </div>
-        </div>
-        
-        <div class="gallery-item">
-            <img src="../images/costume.jpg" alt="Image 3">
-            <div class="overlay">
-              <div class="caption">Our customers</div>
-            </div>
-          </div>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="../index.html">Aurora Haven</a>
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="nav" aria-label="Open menu"><span></span><span></span><span></span></button>
+      <nav class="nav" id="nav" aria-label="Main">
+          <a href="../index.html">Home</a>
+          <a href="gallery.html" aria-current="page">Gallery</a>
+          <a href="menu.html">Menu</a>
+          <a href="contact.html">Contact</a>
+          <a href="about.html">About us</a>
+      </nav>
+    </div>
+  </header>
 
-          <div class="gallery-item">
-            <img src="../images/waiter.jpg" alt="Image 3">
-            <div class="overlay">
-              <div class="caption">Our waiter</div>
-            </div>
-          </div>
+  <main id="main">
+  <section class="page-hero">
+    <div class="container">
+      <h1>Gallery</h1>
+      <p>A look inside our kitchen and dining room.</p>
+    </div>
+  </section>
 
-          <div class="gallery-item">
-            <img src="../images/food.jpg" alt="Image 3">
-            <div class="overlay">
-              <div class="caption">Our food</div>
-            </div>
-          </div>
-           <div class="gallery-item">
-          <img src="../images/food13.jpg" alt="Image 2">
-          <div class="overlay">
-            <div class="caption">Our food</div>
-          </div>
-        </div>
-         <div class="gallery-item">
-          <img src="../images/sushi13.jpg" alt="Image 2">
-          <div class="overlay">
-            <div class="caption">Our food</div>
-          </div>
-        </div>
-         <div class="gallery-item">
-          <img src="../images/restaurant12.webp" alt="Image 2">
-          <div class="overlay">
-            <div class="caption">Our food</div>
-          </div>
-        </div>
-         
-         <div class="gallery-item">
-          <img src="../images/pizza2.jpg" alt="Image 2">
-          <div class="overlay">
-            <div class="caption">Our food</div>
-          </div>
-        </div>
-         
-         <div class="gallery-item">
-          <img src="../images/foood.avif" alt="Image 2">
-          <div class="overlay">
-            <div class="caption">Our food</div>
-          </div>
-        </div>
-         <div class="gallery-item">
-          <img src="../images/hrana.jpg" alt="Image 2">
-          <div class="overlay">
-            <div class="caption">Our food</div>
-          </div>
-        </div>
+    <section class="section">
+      <div class="container gallery">
+        <figure class="gallery-item">
+          <img src="../images/chef.jpg" alt="A chef cooking over open flames on a grill" loading="lazy">
+          <figcaption>Our chef</figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <img src="../images/caf.JPG" alt="A busy dining room with lights and greenery" loading="lazy">
+          <figcaption>Our dining room</figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <img src="../images/costume.jpg" alt="Friends laughing and sharing a meal" loading="lazy">
+          <figcaption>Our guests</figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <img src="../images/waiter.jpg" alt="A waitress serving guests" loading="lazy">
+          <figcaption>Our team</figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <img src="../images/food.jpg" alt="A table full of dishes" loading="lazy">
+          <figcaption>Our food</figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <img src="../images/food13.jpg" alt="A plate of grilled chicken with lemon and sauce" loading="lazy">
+          <figcaption>Our food</figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <img src="../images/sushi13.jpg" alt="Sushi on a plate next to a cocktail" loading="lazy">
+          <figcaption>Sushi and cocktails</figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <img src="../images/hrana.jpg" alt="Indian dishes served in bowls" loading="lazy">
+          <figcaption>Our food</figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <img src="../images/restaurant12.webp" alt="The open kitchen with plated dishes" loading="lazy">
+          <figcaption>Our kitchen</figcaption>
+        </figure>
       </div>
- 
+    </section>
+  </main>
 
-
-<footer>
-  <h1>Aurora Haven</h1>
-    <div id="futer">
-    <div class="futer">
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <p class="footer-brand">Aurora Haven</p>
+        <p class="footer-note">A fictional restaurant, built as a web development portfolio project by Mina Jevtić.</p>
+      </div>
+      <div>
+        <p class="footer-title">Pages</p>
         <ul>
-            <li> <p>Menu links</p></li>
-                <li><a href="../index.html">Home</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="menu.html">Menu</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="about.html">About us</a></li>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.html">About us</a></li>
         </ul>
-    </div>
-    <div class="futer">
+      </div>
+      <div>
+        <p class="footer-title">More</p>
         <ul>
-            <li><p>Support</p></li>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Terms & Conditions</a></li>
-            <li><a href="#">Law and Influence</a></li>
-            <li><a href="#">Order & Pre Order</a></li>
-            <li><a href="#">Refund Policy</a></li>
-            <li><a href="#">Order Cancellation</a></li>
-            <li><a href="#">Cancellation Policy</a></li>
+          <li><a href="https://github.com/MinaJevtic7523/restaurant" target="_blank" rel="noopener">Source code on GitHub</a></li>
+          <li><a href="../xml.rss">RSS feed</a></li>
+          <li><a href="../sitemap.xml">Sitemap</a></li>
         </ul>
+      </div>
     </div>
-    <div class="futer">
-        <p>Join our Newsletter</p>
-        <input type="email" name="email" id="email" placeholder="Enter your email address here">
-    </div>
-    <div class="futer">
-        <p>Follow Us</p>
-        <a href="https://www.instagram.com/your_instagram" target="_blank"><i class="fab fa-instagram"></i></a>
-        <a href="https://twitter.com/your_twitter" target="_blank"><i class="fab fa-twitter"></i></a>
-        <a href="https://www.facebook.com/your_facebook" target="_blank"><i class="fab fa-facebook"></i></a>
-            <a href="./xml.rss"><i class="fa-solid fa-rss"></i></a>
-        <a href="./sitemap.xml"><i class="fa-solid fa-sitemap"></i></a>  
-    </div>
-    </div>
-   
-</footer>
+    <div class="container footer-bottom"><p>&copy; 2026 Mina Jevtić</p></div>
+  </footer>
+  <script src="../js/main.js"></script>
 </body>
 </html>

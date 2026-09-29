@@ -1,160 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0">
-     <meta name="description" content="Aurora Haven is an elegant restaurant renowned for its
-        exceptional cuisine, where every meal transforms into a unique experience for all the senses.">
-    <meta name="keywords" content="restaurant,menu,gallery,about,contact">
-    <meta name="author" content="Mina,Jevtić,mina,jevtic,aurora,haven">
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-  <title>Restaurant</title>
-  <link rel="stylesheet" href="../css/style.css" />
- <link rel="icon" href="../images/fav.png" type="image/x-icon"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu | Aurora Haven</title>
+  <meta name="description" content="The Aurora Haven menu: sushi, beef, pizza, lobster, pasta, salads and desserts.">
+  <meta name="author" content="Mina Jevtić">
+  <meta property="og:title" content="Menu | Aurora Haven">
+  <meta property="og:description" content="The Aurora Haven menu: sushi, beef, pizza, lobster, pasta, salads and desserts.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://minajevtic7523.github.io/restaurant/images/restaurant12.webp">
+  <link rel="icon" href="../images/fav.png" type="image/png">
+  <link rel="alternate" type="application/rss+xml" title="Aurora Haven" href="../xml.rss">
+  <link rel="stylesheet" href="../css/style.css">
 </head>
-
 <body>
-  <header>
-    <div class="navbar">
-      <nav>
-        <ul>
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="../html/gallery.html">Gallery</a></li>
-          <li><a id="fix" href="../html/menu.html">Menu</a></li>
-          <li><a href="../html/contact.html">Contact</a></li>
-          <li><a href="../html/about.html">About Us</a></li>
-        </ul>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="../index.html">Aurora Haven</a>
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="nav" aria-label="Open menu"><span></span><span></span><span></span></button>
+      <nav class="nav" id="nav" aria-label="Main">
+          <a href="../index.html">Home</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="menu.html" aria-current="page">Menu</a>
+          <a href="contact.html">Contact</a>
+          <a href="about.html">About us</a>
       </nav>
     </div>
   </header>
 
-  <h1 id="menuH1">Menu</h1>
-
-  <section class="menuSection">
-    <div class="menu-item">
-      <img src="../images/sushi.jpg" alt="Food Item 1">
-      <h2>Sushi</h2>
-      <p>Indulge in our sushi, a culinary delight where fresh ingredients meet skilled craftsmanship. Our rolls feature the finest fish atop perfectly seasoned rice, wrapped in delicate seaweed. Customize your experience with fresh add-ons like creamy avocado and crisp cucumber, all served in bite-sized perfection. It's a symphony of flavors in every roll, ensuring a satisfying and memorable sushi experience.</p>
-      <p>Price: $8.99</p>
-    </div>
-
-    <div class="menu-item">
-      <img src="../images/beef14.jpg" alt="Food Item 2">
-      <h2>Beef</h2>
-      <p>Indulge in our succulent beef, a culinary delight prepared with expertise. Whether it's high-quality beef or a plant-based alternative, each bite is a burst of flavor. Customize your experience with our soft, toasted buns and fresh toppings, creating a satisfying and memorable dining moment.</p>
-      <p>Price: $9.99</p>
-    </div>
-
-    <div class="menu-item">
-      <img src="../images/pizza4.jpg" alt="Food Item 1">
-      <h2>Pizza</h2>
-      <p>Experience pizza perfection with our culinary creations. From our oven to your table, savor the blend of savory tomato sauce, gooey cheese, and fresh toppings on a crispy crust. Each slice is a celebration of flavor, bringing a taste of culinary delight to every bite.</p>
-      <p>Price: $12.99</p>
-    </div>
-
-    <div class="menu-item">
-      <img src="../images/lobster2.webp" alt="Food Item 2">
-      <h2>Lobster</h2>
-      <p>Indulge in the luxury of our lobster, a culinary gem that embodies exquisite taste and tender texture. Sourced with precision and prepared with care, our lobster dishes offer a delightful medley of rich flavors, making each bite a decadent experience to savor.</p>
-      <p>Price: $10.99</p>
-    </div>
-
-    <div class="menu-item">
-      <img src="../images/donuts.jpg" alt="Food Item 2">
-      <h2>Donuts</h2>
-      <p>Indulge in the sweet enchantment of our delectable donuts, each one a miniature work of art.
-        Delightfully fried to golden perfection, our donuts boast a light and fluffy interior, complemented
-        by a heavenly glaze or coating. From classic sugar-coated rings to extravagantly frosted creations,
-        our donuts promise a moment of bliss with every heavenly bite.</p>
-      <p>Price: $8.99</p>
-    </div>
-
-    <div class="menu-item">
-      <img src="../images/fries.jpeg" alt="Food Item 2">
-      <h2>Fries</h2>
-      <p>Savor the crispy perfection of our fries, a timeless favorite that's impossible to resist.
-        Hand-cut from premium potatoes and expertly fried to a golden hue, our fries boast a satisfying
-        crunch on the outside and a tender, fluffy interior.
-        Whether enjoyed on their own or paired with your favorite dipping sauce, each fry is a savory
-        delight that adds a touch of comfort and flavor to any meal.
-      </p>
-      <p>Price: $7.99</p>
-    </div>
-
-    <div class="menu-item">
-      <img src="../images/carbonara.jpg" alt="Food Item 2">
-      <h2>Carbonara</h2>
-      <p>Transport your taste buds to Italy with our classic carbonara. Indulge in the perfect balance of creamy sauce, savory pancetta, and al dente pasta, expertly crafted for a comforting and flavorful experience. Each forkful is a journey of culinary delight, capturing the essence of this timeless Italian favorite.
-      </p>
-      <p>Price: $7.99</p>
-    </div>
-    
-    <div class="menu-item">
-      <img src="../images/oyster.webp" alt="Food Item 2">
-      <h2>Oysters with apple & horseradish dressing</h2>
-      <p>Elevate your palate with our exquisite oysters featuring a harmonious blend of crisp apple and zesty horseradish dressing. The briny richness of the oysters is perfectly complemented by the refreshing sweetness of apple, while the hint of horseradish adds a delightful kick. It's a culinary symphony that takes your taste buds on a journey of bold and nuanced flavors.
-      </p>
-      <p>Price: $7.99</p>
-    </div>
-    
-    <div class="menu-item">
-      <img src="../images/lasagna.jpg" alt="Food Item 2">
-      <h2>Lasagna</h2>
-      <p>Embark on a culinary journey with our artisanal lasagna, a masterpiece of flavor and texture. Delicate layers of perfectly cooked pasta cradle a symphony of rich Bolognese sauce and velvety béchamel, creating a harmonious dance on the palate. Each bite is an invitation to savor the timeless elegance of this Italian classic, a celebration of indulgence that captivates the senses with every nuanced layer.</p>
-      <p>Price: $7.99</p>
-    </div>
-    
-    <div class="menu-item">
-      <img src="../images/salata.jpg" alt="Food Item 2">
-      <h2>Caesar salad</h2>
-      <p>Immerse yourself in the exquisite simplicity of our Caesar salad, a delightful medley of crisp romaine lettuce, savory grilled chicken or succulent shrimp, and our signature Caesar dressing. Topped with Parmesan cheese and perfectly toasted croutons, each bite is a journey through a garden of fresh flavors and classic culinary finesse.
-      </p>
-      <p>Price: $7.99</p>
+  <main id="main">
+  <section class="page-hero">
+    <div class="container">
+      <h1>Menu</h1>
+      <p>Fresh ingredients, prepared with care.</p>
     </div>
   </section>
 
+    <section class="section">
+      <div class="container menu-grid">
+        <article class="menu-item">
+          <img src="../images/sushi.jpg" alt="Plate of sushi rolls" loading="lazy">
+          <div class="menu-body">
+            <div class="menu-head"><h2>Sushi</h2><span class="price">$8.99</span></div>
+            <p>Indulge in our sushi, where fresh ingredients meet skilled craftsmanship. Fine fish sits atop perfectly seasoned rice, wrapped in delicate seaweed and finished with fresh add-ons like creamy avocado and crisp cucumber.</p>
+          </div>
+        </article>
+        <article class="menu-item">
+          <img src="../images/beef14.jpg" alt="A beef dish" loading="lazy">
+          <div class="menu-body">
+            <div class="menu-head"><h2>Beef</h2><span class="price">$9.99</span></div>
+            <p>Succulent beef prepared with expertise: tender, rich in flavor and served with fresh seasonal sides for a satisfying and memorable dining moment.</p>
+          </div>
+        </article>
+        <article class="menu-item">
+          <img src="../images/pizza4.jpg" alt="A pizza with melted cheese" loading="lazy">
+          <div class="menu-body">
+            <div class="menu-head"><h2>Pizza</h2><span class="price">$12.99</span></div>
+            <p>From our oven to your table: savory tomato sauce, gooey cheese and fresh toppings on a crispy crust. Every slice is a celebration of flavor.</p>
+          </div>
+        </article>
+        <article class="menu-item">
+          <img src="../images/lobster2.webp" alt="A lobster dish" loading="lazy">
+          <div class="menu-body">
+            <div class="menu-head"><h2>Lobster</h2><span class="price">$10.99</span></div>
+            <p>A culinary gem with exquisite taste and tender texture. Sourced with precision and prepared with care, our lobster offers a delightful medley of rich flavors.</p>
+          </div>
+        </article>
+        <article class="menu-item">
+          <img src="../images/donuts.jpg" alt="A selection of glazed donuts" loading="lazy">
+          <div class="menu-body">
+            <div class="menu-head"><h2>Donuts</h2><span class="price">$8.99</span></div>
+            <p>Golden, light and fluffy on the inside with a heavenly glaze or coating. From classic sugar-coated rings to extravagantly frosted creations.</p>
+          </div>
+        </article>
+        <article class="menu-item">
+          <img src="../images/fries.jpeg" alt="A portion of golden fries" loading="lazy">
+          <div class="menu-body">
+            <div class="menu-head"><h2>Fries</h2><span class="price">$7.99</span></div>
+            <p>Hand-cut from premium potatoes and fried to a golden hue: crunchy on the outside, fluffy inside. Perfect alone or with your favorite dip.</p>
+          </div>
+        </article>
+        <article class="menu-item">
+          <img src="../images/carbonara.jpg" alt="A plate of spaghetti carbonara" loading="lazy">
+          <div class="menu-body">
+            <div class="menu-head"><h2>Carbonara</h2><span class="price">$7.99</span></div>
+            <p>A classic from Italy: creamy sauce, savory pancetta and al dente pasta for a comforting and flavorful experience.</p>
+          </div>
+        </article>
+        <article class="menu-item">
+          <img src="../images/oyster.webp" alt="Fresh oysters on a plate" loading="lazy">
+          <div class="menu-body">
+            <div class="menu-head"><h2>Oysters with apple &amp; horseradish dressing</h2><span class="price">$7.99</span></div>
+            <p>The briny richness of fresh oysters, balanced by the sweetness of crisp apple and a hint of zesty horseradish.</p>
+          </div>
+        </article>
+        <article class="menu-item">
+          <img src="../images/lasagna.jpg" alt="A tray of baked lasagna" loading="lazy">
+          <div class="menu-body">
+            <div class="menu-head"><h2>Lasagna</h2><span class="price">$7.99</span></div>
+            <p>Delicate layers of pasta, rich Bolognese sauce and velvety béchamel: the timeless elegance of an Italian classic.</p>
+          </div>
+        </article>
+        <article class="menu-item">
+          <img src="../images/salata.jpg" alt="A Caesar salad in a bowl" loading="lazy">
+          <div class="menu-body">
+            <div class="menu-head"><h2>Caesar salad</h2><span class="price">$7.99</span></div>
+            <p>Crisp romaine lettuce, grilled chicken or succulent shrimp, our signature Caesar dressing, Parmesan and toasted croutons.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
 
-<footer>
-  <h1>Aurora Haven</h1>
-    <div id="futer">
-    <div class="futer">
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <p class="footer-brand">Aurora Haven</p>
+        <p class="footer-note">A fictional restaurant, built as a web development portfolio project by Mina Jevtić.</p>
+      </div>
+      <div>
+        <p class="footer-title">Pages</p>
         <ul>
-            <li> <p>Menu links</p></li>
-                <li><a href="../index.html">Home</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="menu.html">Menu</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="about.html">About us</a></li>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.html">About us</a></li>
         </ul>
-    </div>
-    <div class="futer">
+      </div>
+      <div>
+        <p class="footer-title">More</p>
         <ul>
-            <li><p>Support</p></li>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Terms & Conditions</a></li>
-            <li><a href="#">Law and Influence</a></li>
-            <li><a href="#">Order & Pre Order</a></li>
-            <li><a href="#">Refund Policy</a></li>
-            <li><a href="#">Order Cancellation</a></li>
-            <li><a href="#">Cancellation Policy</a></li>
+          <li><a href="https://github.com/MinaJevtic7523/restaurant" target="_blank" rel="noopener">Source code on GitHub</a></li>
+          <li><a href="../xml.rss">RSS feed</a></li>
+          <li><a href="../sitemap.xml">Sitemap</a></li>
         </ul>
+      </div>
     </div>
-    <div class="futer">
-        <p>Join our Newsletter</p>
-        <input type="email" name="email" id="email" placeholder="Enter your email address here">
-    </div>
-    <div class="futer">
-        <p>Follow Us</p>
-        <a href="https://www.instagram.com/your_instagram" target="_blank"><i class="fab fa-instagram"></i></a>
-        <a href="https://twitter.com/your_twitter" target="_blank"><i class="fab fa-twitter"></i></a>
-        <a href="https://www.facebook.com/your_facebook" target="_blank"><i class="fab fa-facebook"></i></a>
-        <a href="./xml.rss"><i class="fa-solid fa-rss"></i></a>
-        <a href="./sitemap.xml"><i class="fa-solid fa-sitemap"></i></a> 
-    </div>
-    </div>
-   
-</footer>
+    <div class="container footer-bottom"><p>&copy; 2026 Mina Jevtić</p></div>
+  </footer>
+  <script src="../js/main.js"></script>
 </body>
 </html>

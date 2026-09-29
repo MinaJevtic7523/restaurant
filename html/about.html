@@ -1,101 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-       <meta name="description" content="Aurora Haven is an elegant restaurant renowned for its
-        exceptional cuisine, where every meal transforms into a unique experience for all the senses.">
-    <meta name="keywords" content="restaurant,menu,gallery,about,contact">
-    <meta name="author" content="Mina,Jevtić,mina,jevtic,aurora,haven">
-
-    <title>Restaurant</title>
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="icon" href="../images/fav.png" type="image/x-icon"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About us | Aurora Haven</title>
+  <meta name="description" content="The story and mission of Aurora Haven, a restaurant built on seasonal ingredients and inspired cooking.">
+  <meta name="author" content="Mina Jevtić">
+  <meta property="og:title" content="About us | Aurora Haven">
+  <meta property="og:description" content="The story and mission of Aurora Haven, a restaurant built on seasonal ingredients and inspired cooking.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://minajevtic7523.github.io/restaurant/images/restaurant12.webp">
+  <link rel="icon" href="../images/fav.png" type="image/png">
+  <link rel="alternate" type="application/rss+xml" title="Aurora Haven" href="../xml.rss">
+  <link rel="stylesheet" href="../css/style.css">
 </head>
-
 <body>
-    <header>
-        <div class="navbar">
-            <nav>
-                <ul>
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="../html/gallery.html">Gallery</a></li>
-                    <li><a href="../html/menu.html">Menu</a></li>
-                    <li><a href="../html/contact.html">Contact</a></li>
-                    <li><a id="fix" href="../html/about.html">About Us</a></li>
-                </ul>
-            </nav>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="../index.html">Aurora Haven</a>
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="nav" aria-label="Open menu"><span></span><span></span><span></span></button>
+      <nav class="nav" id="nav" aria-label="Main">
+          <a href="../index.html">Home</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="menu.html">Menu</a>
+          <a href="contact.html">Contact</a>
+          <a href="about.html" aria-current="page">About us</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+  <section class="page-hero">
+    <div class="container">
+      <h1>About us</h1>
+      <p>The story behind Aurora Haven.</p>
+    </div>
+  </section>
+
+    <section class="section">
+      <div class="container about">
+        <img src="../images/chef.jpg" alt="A chef cooking over open flames" loading="lazy">
+        <div class="about-text">
+          <h2>Our story</h2>
+          <p>The culinary team at Aurora Haven is extraordinary. Led by our head chef, the kitchen crafts a menu that goes beyond traditional boundaries. Every dish is a symphony of flavors, made with locally sourced, seasonal ingredients for a wide range of tastes.</p>
+          <h2>Our mission</h2>
+          <p>At Aurora Haven our mission goes beyond serving food. We are committed to creating a dining experience that leaves a lasting impression on our guests. Our principles guide every part of the restaurant, from the kitchen to the dining room, because we aim to be more than a restaurant: we aim to be a culinary sanctuary.</p>
         </div>
+      </div>
+    </section>
 
-        <div class="container" id="about">
-            <section>
-                <h2>Our Story</h2>
-                <p>The culinary team at Aurora Haven is nothing short of extraordinary.
-                    Led by Chef Gordon Ramsay, whose culinary prowess is renowned, the kitchen crafts a menu that
-                    transcends traditional boundaries.
-                    The dishes are a symphony of flavors, using locally sourced,
-                    seasonal ingredients to create a culinary masterpiece that caters to a diverse range of palates.</p>
+    <section class="section section-alt">
+      <div class="container narrow center">
+        <h2 class="section-title">About this project</h2>
+        <p>Aurora Haven is a fictional restaurant. This website was created by Mina Jevtić, a web developer from Belgrade, as a portfolio project built with HTML and CSS. The dishes, prices and contact details are examples.</p>
+        <a class="btn btn-outline" href="https://github.com/MinaJevtic7523/restaurant" target="_blank" rel="noopener">View the code on GitHub</a>
+      </div>
+    </section>
+  </main>
 
-                <h2>Our Mission</h2>
-                <p>At Aurora Haven, our mission transcends the mere act of serving food;
-                    it is a commitment to creating a dining experience that leaves a lasting
-                    imprint on the hearts and palates of our patrons. Our core principles guide us in every aspect of
-                    our operation,
-                    from the kitchen to the front of the house, as we strive to be more than just a restaurant, we aim
-                    to be a culinary sanctuary.</p>
-
-                <h2>About me</h2>
-                <p>I'm Mina Jevtić(18). I was born in Raška,
-                    and i also finished high school there. Currently
-                    i'm a student at ICT college in Belgrade. My index number:75/23. </p>
-                <img src="../images/mojaslika.jpeg" alt="profil">
-            </section>
-        </div>
-
-    </header>
-
-<footer>
-    <h1>Aurora Haven</h1>
-    <div id="futer">
-    <div class="futer">
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <p class="footer-brand">Aurora Haven</p>
+        <p class="footer-note">A fictional restaurant, built as a web development portfolio project by Mina Jevtić.</p>
+      </div>
+      <div>
+        <p class="footer-title">Pages</p>
         <ul>
-            <li> <p>Menu links</p></li>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="menu.html">Menu</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="about.html">About us</a></li>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.html">About us</a></li>
         </ul>
-    </div>
-    <div class="futer">
+      </div>
+      <div>
+        <p class="footer-title">More</p>
         <ul>
-            <li><p>Support</p></li>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Terms & Conditions</a></li>
-            <li><a href="#">Law and Influence</a></li>
-            <li><a href="#">Order & Pre Order</a></li>
-            <li><a href="#">Refund Policy</a></li>
-            <li><a href="#">Order Cancellation</a></li>
-            <li><a href="#">Cancellation Policy</a></li>
+          <li><a href="https://github.com/MinaJevtic7523/restaurant" target="_blank" rel="noopener">Source code on GitHub</a></li>
+          <li><a href="../xml.rss">RSS feed</a></li>
+          <li><a href="../sitemap.xml">Sitemap</a></li>
         </ul>
+      </div>
     </div>
-    <div class="futer">
-        <p>Join our Newsletter</p>
-        <input type="email" name="email" id="email" placeholder="Enter your email address here">
-    </div>
-    <div class="futer">
-        <p>Follow Us</p>
-        <a href="https://www.instagram.com/your_instagram" target="_blank"><i class="fab fa-instagram"></i></a>
-        <a href="https://twitter.com/your_twitter" target="_blank"><i class="fab fa-twitter"></i></a>
-        <a href="https://www.facebook.com/your_facebook" target="_blank"><i class="fab fa-facebook"></i></a>
-          <a href="./xml.rss"><i class="fa-solid fa-rss"></i></a>
-        <a href="./sitemap.xml"><i class="fa-solid fa-sitemap"></i></a>  
-    </div>
-    </div>
-   
-</footer>
+    <div class="container footer-bottom"><p>&copy; 2026 Mina Jevtić</p></div>
+  </footer>
+  <script src="../js/main.js"></script>
 </body>
 </html>
