@@ -1,53 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
-	<channel>
-		<title>Restaurant</title>
-		<link><![CDATA[https://m1na123.github.io]]></link>
-		<description>Aurora Haven is an elegant restaurant renowned for its exceptional cuisine, where every meal transforms into a unique experience for all the senses.</description>
-		<language>en</language>
-		<pubDate>Thu, 07 Mar 2024 20:58:38 +0000</pubDate>
-
-		<item>
-			<guid isPermaLink="false">471506710</guid>
-			<title>Restaurant</title>
-			<link>https://m1na123.github.io/restaurant/html/gallery.html</link>
-			<category>Site News</category>
-			<description>Aurora Haven is an elegant restaurant renowned for its exceptional cuisine, where every meal transforms into a unique experience for all the senses.</description>
-			<pubDate>Thu, 07 Mar 2024 20:55:39 GMT</pubDate>
-			<enclosure url="https://m1na123.github.io/restaurant/images/restaurant12.webp" />
-		</item>
-		<item>
-			<guid isPermaLink="false">2240393173</guid>
-			<title>Restaurant</title>
-			<link>https://m1na123.github.io/restaurant/html/contact.html</link>
-			<category>Site News</category>
-			<description>Aurora Haven is an elegant restaurant renowned for its exceptional cuisine, where every meal transforms into a unique experience for all the senses.</description>
-			<pubDate>Thu, 07 Mar 2024 20:55:39 GMT</pubDate>
-		</item>
-		<item>
-			<guid isPermaLink="false">2264140776</guid>
-			<title>Restaurant</title>
-			<link>https://m1na123.github.io/restaurant/html/about.html</link>
-			<category>Site News</category>
-			<description>Aurora Haven is an elegant restaurant renowned for its exceptional cuisine, where every meal transforms into a unique experience for all the senses.</description>
-			<pubDate>Thu, 07 Mar 2024 20:55:39 GMT</pubDate>
-		</item>
-		<item>
-			<guid isPermaLink="false">3118563777</guid>
-			<title>Restaurant</title>
-			<link>https://m1na123.github.io/restaurant/html/menu.html</link>
-			<category>Site News</category>
-			<description>Aurora Haven is an elegant restaurant renowned for its exceptional cuisine, where every meal transforms into a unique experience for all the senses.</description>
-			<pubDate>Thu, 07 Mar 2024 20:55:39 GMT</pubDate>
-			<enclosure url="https://m1na123.github.io/restaurant/images/sushi.jpg" type="image/jpeg" length="0" />
-		</item>
-		<item>
-			<guid isPermaLink="false">3447204818</guid>
-			<title>Restaurant</title>
-			<link>https://m1na123.github.io/restaurant/index.html</link>
-			<category>Site News</category>
-			<description>Aurora Haven is an elegant restaurant renowned for its exceptional cuisine, where every meal transforms into a unique experience for all the senses.</description>
-			<pubDate>Thu, 07 Mar 2024 20:55:39 GMT</pubDate>
-		</item>
-	</channel>
+<rss version="2.0">
+  <channel>
+    <title>Aurora Haven</title>
+    <link>https://minajevtic7523.github.io/restaurant/</link>
+    <description>Aurora Haven is an elegant restaurant renowned for its exceptional cuisine, where every meal transforms into a unique experience for all the senses.</description>
+    <language>en</language>
+    <pubDate>Tue, 29 Sep 2026 12:00:00 +0000</pubDate>
+    <item>
+      <title>Menu</title>
+      <link>https://minajevtic7523.github.io/restaurant/html/menu.html</link>
+      <description>Sushi, beef, pizza, lobster, pasta, salads and desserts.</description>
+    </item>
+    <item>
+      <title>Gallery</title>
+      <link>https://minajevtic7523.github.io/restaurant/html/gallery.html</link>
+      <description>Photos of our food, kitchen and dining room.</description>
+    </item>
+    <item>
+      <title>About us</title>
+      <link>https://minajevtic7523.github.io/restaurant/html/about.html</link>
+      <description>The story and mission of Aurora Haven.</description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>https://minajevtic7523.github.io/restaurant/html/contact.html</link>
+      <description>Send us a message or find our details.</description>
+    </item>
+  </channel>
 </rss>

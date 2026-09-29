@@ -1,170 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Aurora Haven is an elegant restaurant renowned for its
-        exceptional cuisine, where every meal transforms into a unique experience for all the senses.">
-    <meta name="keywords" content="restaurant,menu,gallery,about,contact">
-    <meta name="author" content="Mina,Jevtić,mina,jevtic,aurora,haven">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link rel="icon" href="./images/fav.png" type="image/x-icon"/>
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Restaurant</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aurora Haven | Restaurant</title>
+  <meta name="description" content="Aurora Haven is an elegant restaurant renowned for its exceptional cuisine, where every meal transforms into a unique experience for all the senses.">
+  <meta name="author" content="Mina Jevtić">
+  <meta property="og:title" content="Aurora Haven | Restaurant">
+  <meta property="og:description" content="Aurora Haven is an elegant restaurant renowned for its exceptional cuisine, where every meal transforms into a unique experience for all the senses.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://minajevtic7523.github.io/restaurant/images/restaurant12.webp">
+  <link rel="icon" href="./images/fav.png" type="image/png">
+  <link rel="alternate" type="application/rss+xml" title="Aurora Haven" href="./xml.rss">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
-
 <body>
-    <header>
-        <div class="navbar">
-            <nav>
-                <ul>
-                    <li><a id="fix" href="./index.html">Home</a></li>
-                    <li><a href="./html/gallery.html">Gallery</a></li>
-                    <li><a href="./html/menu.html">Menu</a></li>
-                    <li><a href="./html/contact.html">Contact</a></li>
-                    <li><a href="./html/about.html">About Us</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
-    <div class="container" id="container1">
-        <div class="row">
-            <div class="col" id="col1">
-                <h1>Restaurant</h1>
-                <h2 class="slide-in-text">Aurora Haven</h2>
-                <p class="slide-in-text">Welcome to Aurora Haven, your sanctuary of culinary delight.</p>
-
-            </div>
-            <div class="col" id="col2">
-                <div class="image-item">
-                    <img src="images/sushi2.jpg" alt="Image 1">
-                    <p>Flavor-packed sushi delights</p>
-                </div>
-                <div class="image-item">
-                    <img src="images/beef2.jpg" alt="Image 2">
-                    <p>Juicy beef bites</p>
-                </div>
-                <div class="image-item">
-                    <img src="images/pizza2.jpg" alt="Image 3">
-                    <p>Tasty pizza perfection</p>
-                </div>
-
-            </div>
-        </div>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="./index.html">Aurora Haven</a>
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="nav" aria-label="Open menu"><span></span><span></span><span></span></button>
+      <nav class="nav" id="nav" aria-label="Main">
+          <a href="./index.html" aria-current="page">Home</a>
+          <a href="./html/gallery.html">Gallery</a>
+          <a href="./html/menu.html">Menu</a>
+          <a href="./html/contact.html">Contact</a>
+          <a href="./html/about.html">About us</a>
+      </nav>
     </div>
-    <div class="container">
-        <div class="row">
-            <div class="images">
-                <div class="image-item">
-                    <img src="images/skampe.jpg" alt="Image 1">
-                    <p>Succulent shrimp sensations</p>
-                </div>
-                <div class="image-item">
-                    <img src="images/shank.jpg" alt="Image 2">
-                    <p>Hearty meat indulgence</p>
-                </div>
-                <div class="image-item">
-                    <img src="images/kolac.jpg" alt="Image 3">
-                    <p>Sweet Delightful Temptation</p>
-                </div>
-            </div>
-        </div>
-        <div class="row2">
-            <h1>Discover Our Restoraunt</h1>
-            <p>The people, the food and the prime locations make Rodich the perfect place for good friends and
-                family to come together and have a great time. Every time you dine with us, it should be for
-                great inspired food in an environment designed with individual touches unique to the local area.
-            </p>
+  </header>
 
-            <a href="#" class="learn-more">LEARN MORE</a>
+  <main id="main">
+    <section class="hero">
+      <div class="container hero-content">
+        <p class="eyebrow">Welcome to</p>
+        <h1>Aurora Haven</h1>
+        <p class="hero-lead">Your sanctuary of culinary delight.</p>
+        <div class="hero-actions">
+          <a class="btn btn-gold" href="./html/menu.html">See the menu</a>
+          <a class="btn btn-outline" href="./html/contact.html">Contact us</a>
         </div>
-    </div>
+      </div>
+    </section>
 
- <div id="about_us">
-        <h1>ABOUT US</h1>
-        <div class="image">
-            <img src="./images/hraana.jpg" alt="hraana">
-            <div class="text">
-                <h3>Taste perception</h3>
-                <h1>TRADITIONAL & MODERN</h1>
-                <h4>Food serves as a cultural cornerstone, uniting communities and nourishing both body and soul.</h4>
-                <a href="./html/about.html" class="learn">LEARN MORE</a>
-            </div>
-            <img src="./images/burger.webp" alt="burger">
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Signature dishes</h2>
+        <p class="section-lead">A taste of what our kitchen prepares every day.</p>
+        <div class="dish-grid">
+        <figure class="dish">
+          <img src="./images/sushi2.jpg" alt="Sushi rolls topped with salmon and roe" loading="lazy">
+          <figcaption>Flavor-packed sushi delights</figcaption>
+        </figure>
+        <figure class="dish">
+          <img src="./images/beef2.jpg" alt="Beef fillet served with asparagus" loading="lazy">
+          <figcaption>Juicy beef bites</figcaption>
+        </figure>
+        <figure class="dish">
+          <img src="./images/pizza2.jpg" alt="A slice of pizza with melted cheese" loading="lazy">
+          <figcaption>Tasty pizza perfection</figcaption>
+        </figure>
+        <figure class="dish">
+          <img src="./images/skampe.jpg" alt="A plate of shrimp served with sauce" loading="lazy">
+          <figcaption>Succulent shrimp sensations</figcaption>
+        </figure>
+        <figure class="dish">
+          <img src="./images/shank.jpg" alt="Braised meat shank on mashed potatoes" loading="lazy">
+          <figcaption>Hearty meat indulgence</figcaption>
+        </figure>
+        <figure class="dish">
+          <img src="./images/kolac.jpg" alt="Layered pastry with cream and raspberries" loading="lazy">
+          <figcaption>Sweet, delightful temptation</figcaption>
+        </figure>
         </div>
-    </div>
-    <div class="menu-container">
-        <h1 class="title">Our Specials</h1>
-        <img src="./images/spicy.jpg" alt="spicy" />
-        <div class="menu">
-        <div class="item">
-            <h2 class="name">Creamy Chicken Soup</h2><hr class="custom-line">
-            <p class="price">$5.55</p>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container narrow center">
+        <h2 class="section-title">Discover Aurora Haven</h2>
+        <p>The people, the food and the atmosphere make Aurora Haven the perfect place for friends and family to come together and have a great time. Every visit is about inspired food in an environment designed with individual touches unique to the local area.</p>
+        <a class="btn btn-gold" href="./html/about.html">Read our story</a>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container split">
+        <img src="./images/hraana.jpg" alt="Bowls of curry, rice and flatbread on a dark table" loading="lazy">
+        <div class="split-text">
+          <p class="eyebrow">Taste perception</p>
+          <h2 class="section-title left">Traditional &amp; modern</h2>
+          <p>Food is a cultural cornerstone, uniting communities and nourishing both body and soul. We bring together classic recipes and modern technique in every dish.</p>
+          <a class="btn btn-outline" href="./html/about.html">Learn more</a>
         </div>
-        <div class="item">
-            <h2 class="name">Boiled Eggs on Toast</h2><hr class="custom-line">
-            <p class="price">$9.78</p>
+        <img src="./images/burger.webp" alt="A burger with fries on a wooden board" loading="lazy">
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container specials">
+        <img src="./images/spicy.jpg" alt="Chef tossing chili and vegetables in a pan" loading="lazy">
+        <div>
+          <h2 class="section-title left">Our specials</h2>
+          <ul class="price-list">
+          <li><span class="name">Creamy Chicken Soup</span><span class="dots" aria-hidden="true"></span><span class="price">$5.55</span></li>
+          <li><span class="name">Boiled Eggs on Toast</span><span class="dots" aria-hidden="true"></span><span class="price">$9.78</span></li>
+          <li><span class="name">Roasted Rump Steak</span><span class="dots" aria-hidden="true"></span><span class="price">$45.99</span></li>
+          <li><span class="name">Filet Mignon with Mushroom Sauce</span><span class="dots" aria-hidden="true"></span><span class="price">$14.35</span></li>
+          <li><span class="name">Shrimp Scampi Pasta</span><span class="dots" aria-hidden="true"></span><span class="price">$12.95</span></li>
+          <li><span class="name">Surf and Turf</span><span class="dots" aria-hidden="true"></span><span class="price">$29.99</span></li>
+          </ul>
+          <a class="btn btn-gold" href="./html/menu.html">Full menu</a>
         </div>
-        <div class="item">
-            <h2 class="name">Best Roasted RUMsteak</h2><hr class="custom-line">
-            <p class="price">$45.99</p>
-        </div>
-        <div class="item">
-            <h2 class="name">Filet Mignon with Mushroom Sauce</h2><hr class="custom-line">
-            <p class="price">$14.35</p>
-        </div>
-        <div class="item">
-            <h2 class="name">Shrimp Scampi Pasta</h2><hr class="custom-line">
-            <p class="price">$12.95</p>
-        </div>
-        <div class="item">
-            <h2 class="name">Surf and Turf</h2><hr class="custom-line">
-            <p class="price">$29.99</p>
-        </div>
-    </div>
-    </div>
-<footer>
-    <h1>Aurora Haven</h1>
-    <div id="futer">
-    <div class="futer">
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <p class="footer-brand">Aurora Haven</p>
+        <p class="footer-note">A fictional restaurant, built as a web development portfolio project by Mina Jevtić.</p>
+      </div>
+      <div>
+        <p class="footer-title">Pages</p>
         <ul>
-            <li> <p>Menu links</p></li>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./html/gallery.html">Gallery</a></li>
-            <li><a href="./html/menu.html">Menu</a></li>
-            <li><a href="./html/contact.html">Contact</a></li>
-            <li><a href="./html/about.html">About us</a></li>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./html/gallery.html">Gallery</a></li>
+          <li><a href="./html/menu.html">Menu</a></li>
+          <li><a href="./html/contact.html">Contact</a></li>
+          <li><a href="./html/about.html">About us</a></li>
         </ul>
-    </div>
-    <div class="futer">
+      </div>
+      <div>
+        <p class="footer-title">More</p>
         <ul>
-            <li><p>Support</p></li>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Terms & Conditions</a></li>
-            <li><a href="#">Law and Influence</a></li>
-            <li><a href="#">Order & Pre Order</a></li>
-            <li><a href="#">Refund Policy</a></li>
-            <li><a href="#">Order Cancellation</a></li>
-            <li><a href="#">Cancellation Policy</a></li>
+          <li><a href="https://github.com/MinaJevtic7523/restaurant" target="_blank" rel="noopener">Source code on GitHub</a></li>
+          <li><a href="./xml.rss">RSS feed</a></li>
+          <li><a href="./sitemap.xml">Sitemap</a></li>
         </ul>
+      </div>
     </div>
-    <div class="futer">
-        <p>Join our Newsletter</p>
-        <input type="email" name="email" id="email" placeholder="Enter your email address here">
-    </div>
-    <div class="futer">
-        <p>Follow Us</p>
-        <a href="https://www.instagram.com/your_instagram" target="_blank"><i class="fab fa-instagram"></i></a>
-        <a href="https://twitter.com/your_twitter" target="_blank"><i class="fab fa-twitter"></i></a>
-        <a href="https://www.facebook.com/your_facebook" target="_blank"><i class="fab fa-facebook"></i></a>
-            <a href="./xml.rss"><i class="fa-solid fa-rss"></i></a>
-        <a href="./sitemap.xml"><i class="fa-solid fa-sitemap"></i></a> 
-    </div>
-    </div>
-   
+    <div class="container footer-bottom"><p>&copy; 2026 Mina Jevtić</p></div>
   </footer>
+  <script src="./js/main.js"></script>
 </body>
 </html>
